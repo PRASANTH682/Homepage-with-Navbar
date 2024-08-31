@@ -1,0 +1,78 @@
+body{
+    background: url(Images/img3.jpg)center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #1B1B1B;
+    padding: 10px 0px;
+    border-top: 3px solid rgb(70, 70, 70);
+}
+.header h1{
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a{
+    margin-right: 48px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+}
+.navbar a:hover:focus{
+    font-size: 1.4rem;
+}
+main{
+    background-color: #1b1b1b7c;
+    display: flex;
+    justify-content: center;
+    padding: 105px;
+    height: 82vh;
+    text-align: center;
+}
+.content-container h1{
+    font-size: 3.7rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.content-container h1 span{
+    text-transform: uppercase;
+}
+.content-container button{
+    margin-top: 20px;
+    padding: 12px 34px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #fff;
+    transition: .3s;
+}
+.content-container .learn-more{
+    background: transparent;
+    color: inherit;
+    margin-right: 25px;
+}
+.content-container .learn-more:hover{
+    background-color: #fff;
+    color: #000;
+}
+.content-container .subscribe:hover{
+    background: transparent;
+    color: #fff;
+}
+footer{
+    background-color: #171717;
+    width: 100%;
+    height: 15px;
+}
